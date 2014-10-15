@@ -1,0 +1,104 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Sat Jul 19 15:18:43 2014
+;VERSION 0.2
+;FILE adc.o
+ADC1_Init <= USED 0
+ADC_GPIO_Init <= USED 0
+ADC_Get <= USED 0
+ADC_int <= USED 0
+DMAChannel1_IRQHandler <= USED 0
+DMA_Init4 <= USED 0
+MYDMA_Enable <= USED 0
+Timer2_Init <= USED 0
+__asm___5_ADC_C_74315334____REV16 <= USED 0
+__asm___5_ADC_C_74315334____REVSH <= USED 0
+;FILE clock_arch.o
+__asm___12_clock_arch_c_a90b7ff8____REV16 <= USED 0
+__asm___12_clock_arch_c_a90b7ff8____REVSH <= USED 0
+;FILE clockmanager.o
+Ex_NVIC_Config <= USED 0
+JTAG_Set <= USED 0
+MYRCC_DeInit <= USED 0
+MY_NVIC_SetVectorTable <= USED 0
+Stm32_Clock_Init <= USED 0
+Sys_Soft_Reset <= USED 0
+Sys_Standby <= USED 0
+WFI_SET <= USED 0
+__asm___14_clockmanager_c_19059168____REV16 <= USED 0
+__asm___14_clockmanager_c_19059168____REVSH <= USED 0
+os_clock_restore <= USED 0
+;FILE cmd.o
+__asm___5_cmd_c_8fc1d4e5____REV16 <= USED 0
+__asm___5_cmd_c_8fc1d4e5____REVSH <= USED 0
+;FILE device.o
+__asm___8_device_c_012c830f____REV16 <= USED 0
+__asm___8_device_c_012c830f____REVSH <= USED 0
+os_device_read <= USED 0
+os_device_set_rx_indicate <= USED 0
+os_device_set_tx_complete <= USED 0
+os_device_unregister <= USED 0
+;FILE hal_timer.o
+__asm___11_hal_timer_c_06dbb596____REV16 <= USED 0
+__asm___11_hal_timer_c_06dbb596____REVSH <= USED 0
+del_timer_struct <= USED 0
+;FILE keys.o
+EXTI15_10_IRQHandler <= USED 0
+EXTI9_5_IRQHandler <= USED 0
+__asm___6_keys_c_599e7b50____REV16 <= USED 0
+__asm___6_keys_c_599e7b50____REVSH <= USED 0
+;FILE led.o
+__asm___5_led_c_LED_Init____REV16 <= USED 0
+__asm___5_led_c_LED_Init____REVSH <= USED 0
+;FILE mem.o
+__asm___5_mem_c_af874bbf____REV16 <= USED 0
+__asm___5_mem_c_af874bbf____REVSH <= USED 0
+osrealloc <= USED 0
+;FILE message.o
+__asm___9_message_c_2f3e61d1____REV16 <= USED 0
+__asm___9_message_c_2f3e61d1____REVSH <= USED 0
+;FILE obj.o
+__asm___5_obj_c_7d1f7ed4____REV16 <= USED 0
+__asm___5_obj_c_7d1f7ed4____REVSH <= USED 0
+os_object_detach <= USED 0
+;FILE os.o
+OS_Init <= USED 0
+Shedule <= USED 0
+__asm___4_os_c_tick_tok____REV16 <= USED 0
+__asm___4_os_c_tick_tok____REVSH <= USED 0
+;FILE q_shell.o
+__asm___9_Q_Shell_c_ad30acc3____REV16 <= USED 0
+__asm___9_Q_Shell_c_ad30acc3____REVSH <= USED 0
+;FILE relay.o
+__asm___7_relay_c_59e8896b____REV16 <= USED 0
+__asm___7_relay_c_59e8896b____REVSH <= USED 0
+;FILE start_up.o
+__asm___10_start_up_c_main____REV16 <= USED 0
+__asm___10_start_up_c_main____REVSH <= USED 0
+;FILE startup_stm32f0xx.o
+;FILE system_stm32f0xx.o
+SystemCoreClockUpdate <= USED 0
+__asm___18_system_stm32f0xx_c_5d646a67____REV16 <= USED 0
+__asm___18_system_stm32f0xx_c_5d646a67____REVSH <= USED 0
+;FILE systick.o
+__asm___9_systick_c_7983e740____REV16 <= USED 0
+__asm___9_systick_c_7983e740____REVSH <= USED 0
+delay_ms <= USED 0
+delay_us <= USED 0
+sys_tick_init <= USED 0
+;FILE task.o
+System_Tick_Hook <= USED 0
+__asm___6_Task_c_25cec685____REV16 <= USED 0
+__asm___6_Task_c_25cec685____REVSH <= USED 0
+board_hardware_initiate <= USED 0
+;FILE usart1.o
+DMA1_Channel4_IRQHandler <= USED 0
+__asm___8_usart1_c_c5624bc8____REV16 <= USED 0
+__asm___8_usart1_c_c5624bc8____REVSH <= USED 0
+uart1_close <= USED 0
+;FILE usart2.o
+__asm___8_usart2_c_dadf8f40____REV16 <= USED 0
+__asm___8_usart2_c_dadf8f40____REVSH <= USED 0
+uart2_close <= USED 0
+;FILE usertask.o
+__asm___10_usertask_c_382a71b1____REV16 <= USED 0
+__asm___10_usertask_c_382a71b1____REVSH <= USED 0
+call_back_test <= USED 0

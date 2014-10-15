@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\incs\asm-arm\stm32f0xx -I..\incs\kernel -I..\incs\driver -I..\incs\driver\stm32f051x -I..\task\usertask -I..\incs\driver\stm32f103x
+-I d:\Keil\ARM\RV31\INC
+-I d:\Keil\ARM\CMSIS\Include
+-I d:\Keil\ARM\Inc\ST\STM32F0xx
+-DSTM32F051
+-o .\cmd.o --omf_browse .\cmd.crf --depend .\cmd.d --feedback ".\stm32f05x.fed" "..\kernel\Q_Shell\cmd.c"

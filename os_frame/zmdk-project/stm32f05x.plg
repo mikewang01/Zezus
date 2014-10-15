@@ -1,0 +1,318 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\colorful sea\Zeus\trunk\software\os_frame\zmdk-project\stm32f05x.uvproj
+Project File Date:  10/13/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=28704 RO-data=12196 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(194): error:  #20: identifier "My_Id" is undefined
+..\task\guitask\gui_task.c(279): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(282): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(211): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(273): warning:  #177-D: function "process_order" was declared but never referenced
+".\stm32f05x.axf" - 1 Errors, 6 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(97): warning:  #177-D: variable "counter" was declared but never referenced
+..\task\guitask\gui_task.c(279): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(282): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(211): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(273): warning:  #177-D: function "process_order" was declared but never referenced
+linking...
+Program Size: Code=28368 RO-data=6684 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 7 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling user_task.c...
+..\incs\asm-arm\stm32f0xx\gpio_mgr.h(78): warning:  #1295-D: Deprecated declaration os_gpio_init - give arg types
+..\task\usertask\user_task.c(138): warning:  #177-D: variable "temp" was declared but never referenced
+..\task\usertask\user_task.c(138): warning:  #177-D: variable "a" was declared but never referenced
+linking...
+Program Size: Code=28392 RO-data=6684 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 3 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling os.c...
+..\kernel\shedule\os.c(199): warning:  #223-D: function "abort" declared implicitly
+linking...
+Program Size: Code=28396 RO-data=6684 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 1 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling os.c...
+..\kernel\shedule\os.c(198): warning:  #223-D: function "abort" declared implicitly
+linking...
+Program Size: Code=28384 RO-data=6684 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 1 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling os.c...
+..\kernel\shedule\os.c(199): warning:  #223-D: function "abort" declared implicitly
+linking...
+Program Size: Code=28384 RO-data=6684 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 1 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(98): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(279): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(282): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(211): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(273): warning:  #177-D: function "process_order" was declared but never referenced
+compiling os.c...
+..\kernel\shedule\os.c(200): warning:  #223-D: function "abort" declared implicitly
+linking...
+Program Size: Code=28720 RO-data=12196 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 8 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(98): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(279): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(282): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(211): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(273): warning:  #177-D: function "process_order" was declared but never referenced
+compiling Button.c...
+..\xgui\Graphics\Button.c(244): warning:  #550-D: variable "width" was set but never used
+..\xgui\Graphics\Button.c(244): warning:  #550-D: variable "height" was set but never used
+compiling CheckBox.c...
+compiling EditBox.c...
+compiling GOL.c...
+compiling Grid.c...
+compiling GroupBox.c...
+compiling ListBox.c...
+compiling Meter.c...
+compiling Picture.c...
+compiling Primitive.c...
+..\xgui\Graphics\Primitive.c(1157): warning:  #177-D: variable "pChTable" was declared but never referenced
+..\xgui\Graphics\Primitive.c(1286): warning:  #177-D: variable "pChTable" was declared but never referenced
+..\xgui\Graphics\Primitive.c(1287): warning:  #177-D: variable "pHeader" was declared but never referenced
+..\xgui\Graphics\Primitive.c(1169): warning: C4017W: temp may be used before being set
+..\xgui\Graphics\Primitive.c(1168): warning: C4017W: x may be used before being set
+..\xgui\Graphics\Primitive.c(1167): warning: C4017W: chWidth may be used before being set
+..\xgui\Graphics\Primitive.c(1158): warning: C4017W: pChImage may be used before being set
+compiling ProgressBar.c...
+compiling RadioButton.c...
+compiling Slider.c...
+compiling SSD1303.c...
+..\xgui\Graphics\SSD1303.c(313): warning:  #550-D: variable "address" was set but never used
+..\xgui\Graphics\SSD1303.c(321): warning:  #550-D: variable "pallete" was set but never used
+compiling StaticText.c...
+compiling Window.c...
+linking...
+Program Size: Code=28616 RO-data=12196 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 18 Warning(s).
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(98): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(279): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(282): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(211): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(273): warning:  #177-D: function "process_order" was declared but never referenced
+compiling Button.c...
+..\xgui\Graphics\Button.c(244): warning:  #550-D: variable "width" was set but never used
+..\xgui\Graphics\Button.c(244): warning:  #550-D: variable "height" was set but never used
+compiling CheckBox.c...
+compiling EditBox.c...
+compiling GOL.c...
+compiling Grid.c...
+compiling GroupBox.c...
+compiling ListBox.c...
+compiling Meter.c...
+compiling Picture.c...
+compiling Primitive.c...
+..\xgui\Graphics\Primitive.c(1169): warning: C4017W: temp may be used before being set
+..\xgui\Graphics\Primitive.c(1168): warning: C4017W: x may be used before being set
+..\xgui\Graphics\Primitive.c(1167): warning: C4017W: chWidth may be used before being set
+..\xgui\Graphics\Primitive.c(1158): warning: C4017W: pChImage may be used before being set
+compiling ProgressBar.c...
+compiling RadioButton.c...
+compiling Slider.c...
+compiling SSD1303.c...
+..\xgui\Graphics\SSD1303.c(313): warning:  #550-D: variable "address" was set but never used
+..\xgui\Graphics\SSD1303.c(321): warning:  #550-D: variable "pallete" was set but never used
+compiling StaticText.c...
+compiling Window.c...
+linking...
+Program Size: Code=28508 RO-data=12196 RW-data=1412 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 15 Warning(s).
+Build target 'Target 1'
+compiling system_task.c...
+..\task\systemtask\system_task.c(28): warning:  #1295-D: Deprecated declaration task_gui_init - give arg types
+..\task\systemtask\system_task.c(30): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\systemtask\system_task.c(110): warning:  #223-D: function "GOLDraw" declared implicitly
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(98): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(279): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(282): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(211): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(273): warning:  #177-D: function "process_order" was declared but never referenced
+linking...
+Program Size: Code=34028 RO-data=12196 RW-data=1508 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 10 Warning(s).
+Build target 'Target 1'
+compiling system_task.c...
+..\task\systemtask\system_task.c(29): warning:  #1295-D: Deprecated declaration task_gui_init - give arg types
+..\task\systemtask\system_task.c(31): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+linking...
+Program Size: Code=34028 RO-data=12196 RW-data=1508 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 2 Warning(s).
+Build target 'Target 1'
+compiling system_task.c...
+..\task\systemtask\system_task.c(29): warning:  #1295-D: Deprecated declaration task_gui_init - give arg types
+..\task\systemtask\system_task.c(31): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+linking...
+Program Size: Code=34028 RO-data=12196 RW-data=1508 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 2 Warning(s).
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(98): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(279): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(282): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(211): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(273): warning:  #177-D: function "process_order" was declared but never referenced
+linking...
+Program Size: Code=34024 RO-data=12196 RW-data=1508 ZI-data=3420  
+".\stm32f05x.axf" - 0 Errors, 7 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(99): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(304): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(307): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(236): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(298): warning:  #177-D: function "process_order" was declared but never referenced
+linking...
+Program Size: Code=34120 RO-data=12196 RW-data=1508 ZI-data=3452  
+".\stm32f05x.axf" - 0 Errors, 7 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(99): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(304): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(307): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(236): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(298): warning:  #177-D: function "process_order" was declared but never referenced
+linking...
+Program Size: Code=34120 RO-data=12196 RW-data=1508 ZI-data=3452  
+".\stm32f05x.axf" - 0 Errors, 7 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(99): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(304): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(307): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(236): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(298): warning:  #177-D: function "process_order" was declared but never referenced
+linking...
+Program Size: Code=34120 RO-data=12196 RW-data=1508 ZI-data=3452  
+".\stm32f05x.axf" - 0 Errors, 7 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(99): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(305): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(308): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(237): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(299): warning:  #177-D: function "process_order" was declared but never referenced
+linking...
+Program Size: Code=34124 RO-data=12196 RW-data=1508 ZI-data=3452  
+".\stm32f05x.axf" - 0 Errors, 7 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=34124 RO-data=12196 RW-data=1508 ZI-data=3452  
+".\stm32f05x.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling gui_task.c...
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+..\task\guitask\gui_task.c(99): warning:  #177-D: variable "task_state" was declared but never referenced
+..\task\guitask\gui_task.c(319): warning:  #174-D: expression has no effect
+..\task\guitask\gui_task.c(322): warning:  #940-D: missing return statement at end of non-void function "process_order"
+..\task\guitask\gui_task.c(251): warning:  #177-D: function "process_msg" was declared but never referenced
+..\task\guitask\gui_task.c(313): warning:  #177-D: function "process_order" was declared but never referenced
+linking...
+Program Size: Code=34200 RO-data=12196 RW-data=1508 ZI-data=3452  
+".\stm32f05x.axf" - 0 Errors, 7 Warning(s).
+Load "E:\\colorful sea\\Zeus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.

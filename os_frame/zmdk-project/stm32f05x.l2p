@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+".\startup_stm32f0xx.o"
+".\start_up.o"
+".\system_stm32f0xx.o"
+".\clock_arch.o"
+".\mem.o"
+".\systick.o"
+".\task.o"
+".\usertask.o"
+".\clockmanager.o"
+".\device.o"
+".\message.o"
+".\obj.o"
+".\os.o"
+".\hal_timer.o"
+".\usart1.o"
+".\usart2.o"
+".\adc.o"
+".\keys.o"
+".\led.o"
+".\relay.o"
+".\cmd.o"
+".\q_shell.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--keep *.o(qShellVarTab)
+--keep *.o(qShellFunTab) --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\stm32f05x.map" -o .\stm32f05x.axf

@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Project:</h2>
+G:\work\zezus\trunk\software\os_frame\zmdk-project\stm32f05x.uvproj
+Project File Date:  10/13/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling gui_task.c...
+..\incs\driver\stm32f103x\ADC.h(35): warning:  #47-D: incompatible redefinition of macro "CAL" (declared at line 745 of "d:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h")
+  #define CAL                   2       //ADУ׼
+..\task\guitask\gui_task.c(76): warning:  #1295-D: Deprecated declaration task_gui - give arg types
+   void task_gui();
+..\task\guitask\gui_task.c(79): warning:  #177-D: variable "this_task_id" was declared but never referenced
+      u8 this_task_id=Current_Task;
+..\task\guitask\gui_task.c(99): warning:  #177-D: variable "task_state" was declared but never referenced
+            PCB* task_state=0;
+..\task\guitask\gui_task.c(336): warning:  #174-D: expression has no effect
+                EXAM_ASSERT( (dev_serial!=NULL) );
+..\task\guitask\gui_task.c(339): warning:  #940-D: missing return statement at end of non-void function "process_order"
+  }
+..\task\guitask\gui_task.c(268): warning:  #177-D: function "process_msg" was declared but never referenced
+  static void process_msg(u16 taskid , u16 msg_num , smessage* msg)
+..\task\guitask\gui_task.c(330): warning:  #177-D: function "process_order" was declared but never referenced
+  static os_err_t process_order(data_packge package)
+..\task\guitask\gui_task.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=36356 RO-data=12196 RW-data=1516 ZI-data=4476  
+".\stm32f05x.axf" - 0 Error(s), 8 Warning(s).
+Load "G:\\work\\zezus\\trunk\\software\\os_frame\\zmdk-project\\stm32f05x.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
